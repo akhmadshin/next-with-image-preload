@@ -1,6 +1,6 @@
 # next-with-image-preload
 
-That library lets you tame View Transitions API in Next.js Pages Router.
+Preloads img with specific size, once hovered
 
 ## Installation
 
