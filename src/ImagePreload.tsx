@@ -1,5 +1,5 @@
 import { ImgProps } from 'next/dist/shared/lib/get-img-props';
-import Head from 'next/head';
+import Head from 'next/dist/shared/lib/head';
 import { generateImgSrc } from './generateImgSrcSet';
 
 type PreloadAs =
