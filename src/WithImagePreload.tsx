@@ -1,5 +1,5 @@
 import { FC, useState, PropsWithChildren } from 'react';
-import { ImagePreload } from './ImagePreload.tsx';
+import { ImagePreload } from './ImagePreload';
 
 interface Props {
   size: string;
