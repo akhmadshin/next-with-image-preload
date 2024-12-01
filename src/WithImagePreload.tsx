@@ -1,5 +1,5 @@
-import React, { useState, PropsWithChildren } from 'react';
-import { ImagePreload } from './ImagePreload';
+import { FC, useState, PropsWithChildren } from 'react';
+import { ImagePreload } from './ImagePreload.tsx';
 
 interface Props {
   size: string;
@@ -7,7 +7,7 @@ interface Props {
   height: number;
   width: number;
 }
-type ParentComponent<T = unknown> = React.FC<PropsWithChildren<T>>
+type ParentComponent<T = unknown> = FC<PropsWithChildren<T>>
 
 export const WithImagePreload: ParentComponent<Props> = ({ size, src, height, width, children }) => {
   const [isHovered, setIsHovered] = useState(false);

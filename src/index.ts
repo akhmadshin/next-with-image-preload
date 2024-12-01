@@ -1,1 +1,1 @@
-export { WithImagePreload } from './WithImagePreload';
+export { WithImagePreload } from './WithImagePreload.tsx';
