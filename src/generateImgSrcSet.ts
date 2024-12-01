@@ -1,6 +1,6 @@
 import type { ImageConfigComplete } from 'next/dist/shared/lib/image-config';
 // @ts-ignore - This is replaced by webpack alias
-import defaultLoader from 'next/dist/shared/lib/image-loader.js'
+import defaultLoader from 'next/dist/shared/lib/image-loader'
 
 const getWidths = ({ deviceSizes, imageSizes }: ImageConfigComplete,
   width: number | undefined,
